@@ -1,0 +1,200 @@
+body {
+	font-family: Helvetica, sans-serif;
+	background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+}
+
+body, html, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+
+/* ------- TOPO --------- */
+
+#barra-nav-custom {
+	padding: 15px 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#barra-nav-custom .container div ul li a {
+	color: #FFF;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+#navegacao-links .nav-item .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.sem-hover {
+	opacity: 0.5;
+}
+
+.sem-hover:hover {
+	color: white !important;
+}
+
+/* -------------- CENTRO ------------- */
+
+.capa {
+	text-align: center;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 6em;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#home .container .btn {
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+
+.botao1 {
+	background: #7c25f8;
+	padding: 10px 20px;
+	color: white;
+}
+
+.botao2 {
+	background: rgba(0, 0, 0, 0.0);
+	border: 2px solid #FFF;
+	padding: 10px 20px;
+	color: white;
+}
+
+.botao1:hover {
+	background: #6207e3;
+}
+
+.botao2:hover {
+	background-color: white;
+	color: black;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: -1.2px;
+	color: #7c25f8;
+}
+
+h4 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #7c25f8;
+	letter-spacing: -1.2px;
+}
+
+#texto-custom h2 {
+	color: white;
+}
+
+#texto-custom h4 {
+	color: #9bf0e1;
+}
+
+#texto-custom p {
+	color: white;
+}
+
+#imagem-custom {
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+	font-size: 1em;
+}
+
+
+/* ----- MEDIA QUERIES ---------- */
+
+@media (max-width: 575.98px) {
+	h1{
+		font-size: 2.5em;
+	}
+	#home .container .btn {
+		font-size: 1em;
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1{
+		font-size: 3em;
+	}
+	#home .container .btn {
+		margin-top: 20px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1{
+		font-size: 4em;
+	}
+	#home .container .btn {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1{
+		font-size: 5em;
+	}
+	#home .container .btn {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+/* FOOTER ---------- */
+
+footer {
+	background: black;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+footer ul.navbar-nav a {
+	text-decoration: none;
+}
+
+footer ul a {
+	font-size: 0.8em;
+	color: white;
+	margin-left: 5px;
+}
+
+footer ul a:hover {
+	color: #9bf0e1;
+}
+
+footer p {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: grey;
+	margin-bottom: 10px;
+}
+
+footer div#redes-sociais {
+	padding-left: 200px;
+	letter-spacing: 10px;
+	color: rgba(255, 255, 255, 0.7);
+}
